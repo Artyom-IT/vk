@@ -53,7 +53,7 @@ h3 {
   cursor: pointer;
 }
 
-.news-item:last-child .news-info {
+.explore .news-item:last-child .news-info {
   font-size: 14px;
   line-height: 22px;
   color: #1890ff;
