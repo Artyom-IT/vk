@@ -1,3 +1,9 @@
+.menu {
+  position: fixed;
+  min-width: 192px;
+  height: 100vh;
+}
+
 .user__info {
   display: flex;
   align-items: center;

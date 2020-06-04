@@ -1,6 +1,7 @@
 @import './components/header.css';
 @import './components/menu.css';
-@import './components/feed.css';
+@import './components/post.create.css';
+@import './components/post.css';
 
 * {
   box-sizing: border-box;
