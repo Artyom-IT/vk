@@ -107,6 +107,6 @@ main {
 
   .app {
     margin: 0 auto;
-    padding: 0 50px 0 35px;
+    /* padding: 0 0 0px 0 5px; */
   }
 }
