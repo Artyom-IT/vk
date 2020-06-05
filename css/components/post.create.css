@@ -107,6 +107,8 @@ main {
 
   .app {
     margin: 0 auto;
-    /* padding: 0 0 0px 0 5px; */
+    justify-content: center;
+    position: relative;
+    left: -7px;
   }
 }
