@@ -1,5 +1,6 @@
 main {
-  margin-left: 210px;
+  margin-left: 18px;
+  max-width: 588px;
 }
 
 .create-post {
@@ -72,16 +73,12 @@ main {
   align-items: center;
   border: 0;
   border-radius: 48px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
 }
 
 .post__footer .button p {
   margin: 0;
-}
-
-.post__footer svg {
-  margin-right: 5px;
-}
-
-.post__footer:last-child svg {
-  margin-right: 0;
+  margin-left: 5px;
 }

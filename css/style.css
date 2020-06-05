@@ -2,6 +2,7 @@
 @import './components/menu.css';
 @import './components/post.create.css';
 @import './components/post.css';
+@import './components/sidebar.css';
 
 * {
   box-sizing: border-box;
@@ -17,4 +18,19 @@ body {
   margin: 0 auto;
   padding-top: 64px;
   display: flex;
+  justify-content: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+.disabled {
+  display: none;
 }

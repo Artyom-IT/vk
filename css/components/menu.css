@@ -1,7 +1,9 @@
 .menu {
+  width: 192px;
+}
+
+.menu-content {
   position: fixed;
-  min-width: 192px;
-  height: 100vh;
 }
 
 .user__info {
@@ -59,8 +61,29 @@ h3 {
   cursor: pointer;
 }
 
+.menu.active {
+  transform: translateX(0%);
+}
+
 .explore .news-item:last-child .news-info {
   font-size: 14px;
   line-height: 22px;
   color: #1890ff;
+}
+
+@media (max-width: 900px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 64px;
+    padding-left: 25px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    min-width: 210px;
+    z-index: 2;
+    transform: translateX(-100%);
+    transition: 0.2s;
+  }
 }
