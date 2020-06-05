@@ -4,7 +4,7 @@ main {
 }
 
 .create-post {
-  width: 588px;
+  max-width: 588px;
   border-radius: 4px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   background-color: #fff;
@@ -81,4 +81,32 @@ main {
 .post__footer .button p {
   margin: 0;
   margin-left: 5px;
+}
+
+@media (max-width: 700px) {
+  .post {
+    max-width: 600px;
+  }
+  .button:nth-child(3) {
+    display: none;
+  }
+
+  .post__footer {
+    justify-content: space-around;
+  }
+
+  .app {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .button:nth-child(2) {
+    display: none;
+  }
+
+  .app {
+    margin: 0 auto;
+    padding: 0 50px 0 35px;
+  }
 }

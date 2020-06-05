@@ -166,3 +166,15 @@
     display: flex;
   }
 }
+
+@media (max-width: 700px) {
+  .search {
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .search {
+    display: none;
+  }
+}
